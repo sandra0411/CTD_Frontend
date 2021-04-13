@@ -28,21 +28,49 @@ body{
 header{
     background-color: #00669F;
     color: white;
+    position: sticky;
+    top: 0%;
+    
+    
+    
     
 }
 
 header h1 {
+    
     display: block;
     font-size: 100px;
     font-weight: 300;
     padding: 50px;
 }
 
+.img-fondo {
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    color: #CC2424;
+
+    font-size: 400%;
+}
+
+
+
 main {
     position: relative;
     max-width: 60%;
     margin: 0 auto;
     
+}
+
+.more {
+    position: fixed;
+    right: 10%;
+    bottom: 50%;
+    font-size: 800%;
+    color: #00669F;
 }
 
 .card {
@@ -71,6 +99,9 @@ height: 406px;
     color: #333333;
     padding-top: 180px;
     padding-bottom: 10px;
+    box-shadow: 0px 4px #00000025;
+    
+    
 }
 
 .foto{

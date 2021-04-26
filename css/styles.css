@@ -1,4 +1,8 @@
 
+@import "variables.css";
+@import "formularios.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -6,163 +10,243 @@
     
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
+.card {
+    position:relative;
+    display: inline-block;
+    width: 300px;
+    margin: 190px 60px;
+    
+}
+
+.contHeader {
+    display: inline-block;
+    
+}
+
 #descuento {
 
-    background-color: #1CD1B0;
-    
-    font-size: 70px;
+    background-color: var(--colorVerde);
+    font-size: 15px;
     
 }
 
 #descuento p{
     display: block;
-    padding-left: 50px;
+    padding-left: 20px;
+}
+
+footer {
+
+    background: var(--colorAzul);
+    height: 60px;
+}
+    
+footer p{
+
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.foto{
+           
+    display: block;
+    position: absolute;
+    left: 90px;
+    top: -70px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;    
 }
 
 header{
-    background-color: #00669F;
+    position: relative;
+    background-color:var(--colorAzul);
     color: white;
     position: sticky;
     top: 0%;
-    
-    
-    
+    z-index: 2;
+    box-shadow: 0px 5px #00000025;
+    height: 130px;
     
 }
 
-header h1 {
+.icon{
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    color: var(--colorRojo);  
+    font-size: 200%
+}
+
+.imagen {
+
+    width: 300px;
+    border-radius: 16px 16px 0px 0px;
     
-    display: block;
-    font-size: 100px;
-    font-weight: 300;
-    padding: 50px;
 }
 
 .img-fondo {
     position: relative;
 }
-.icon{
-    position: absolute;
-    top: 7%;
-    left: 7%;
-    color: #CC2424;
 
-    font-size: 400%;
+.info {
+    
+    width: 128px;
+    background-color:var(--colorAzul);
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    margin-top: 50px;
+    display: block;
+    
 }
 
-
+.logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+   
+}
 
 main {
     position: relative;
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
     
 }
 
 .more {
     position: fixed;
-    right: 10%;
-    bottom: 50%;
-    font-size: 800%;
-    color: #00669F;
+    right: 9%;
+    bottom: 40%;
+    font-size: 400%;
+    color: var(--colorAzul);
 }
 
-.card {
-    position:relative;
-    /* border: solid black 5px; */
-    width: 700px;
-    margin: 50px auto;
-    
-}
-
-.imagen {
-
-width: 700px;
-border-radius: 67px 67px 0px 0px;
-height: 406px;
-}
-
-
-
-.textoCard {
-    position: relative;
-    background-color: #F3F3F3;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    color: #333333;
-    padding-top: 180px;
-    padding-bottom: 10px;
-    box-shadow: 0px 4px #00000025;
-    
-    
-}
-
-.foto{
-    
-    display: block;
+nav {
+    background-color: var(--colorNav);
+    color: #FFFFFF;
     position: absolute;
-    left: 200px;
-    top: -150px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;    
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+   
 }
 
+
+.navLi{
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    display: inline-block;
+    
+    
+}
+
+.navLi a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navUl {
+    position: relative;
+    text-align: right;
+
+}
 
 .nombre{
 
-font-size: 64px;
-line-height: 75px;
-text-align: center;
-color: #000000;
-font-weight: 300;
-
+    font-size: 30px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    font-weight: 300;
+    
 }
-
-
 
 .origen {
 
-    margin-left: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
+.textoCard {
+    position: relative;
+    background-color: var(--colorGris);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px #00000025;
+        
+}
 
 
-.info {
+.tienda {
+    position: relative;
+    height: 90px;  
+}
+
+.tienda h1 {
     
-    width: 300px;
-    background-color:#00669F;
-    border-radius: 7px;
-    padding: 20px 80px;
-    text-decoration: none;
-    color: white;
-    margin: 20px auto;
-    margin-top: 70px;
-    display: block;
+    position: relative;
+    bottom: 10%;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 300;
+     
 }
 
 
 
-footer {
 
-background: #00669F;
-height: 200px;
-}
 
-footer p{
-position: relative;
-top: 80px;
-text-align: center;
-font-size: 40px;
-color: white;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

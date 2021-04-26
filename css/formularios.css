@@ -1,0 +1,83 @@
+
+.mainLogin {
+
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 200px 0px;
+}
+
+.mainLogin h2 {
+    
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+
+.boxLogin {
+    position: relative;
+    left: 8.5%;
+}
+
+.loginHeader {
+    height: 90px;
+}
+
+
+.mainLogin input [type="text"] {
+    width: 620px;
+    height: 60px;
+}
+
+.mainLogin button{
+    width: 614px;
+    height: 54px;
+    background-color: var(--colorVerde);
+    border-radius: 23px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mainLogin p {
+
+text-align: center;
+letter-spacing: 1px;
+word-spacing: 2px;
+width: 620px;
+}
+.loginInput {
+    display: block;
+    width: 620px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    
+}
+
+.registro{
+    padding-left: 10px;
+}
+
+
+footer {
+    margin-bottom: 0px;
+}
+
+.paisRegistro {
+    width: 620px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+.formRegistro button {
+    display: inline-block;
+    width: 300px;
+}
+
+#resetBut {
+    background-color: #888888;
+    color:#FFFFFF;
+    margin-right: 20px;
+
+}
